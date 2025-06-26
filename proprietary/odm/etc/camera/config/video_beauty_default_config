@@ -1,0 +1,25 @@
+{
+    "isFunctionOpen":1,
+    "isParamAdjustOpen":1,
+    "appConfigList": [
+        {
+            "appName":"WhatsApp",
+            "packageName":"com.whatsapp",
+            "videoBeautyParam":
+               {
+                   "isOpen": 0,
+                   "fbParam": "0,0,0,0,0,0,0,0,0,0,0",
+                   "activityName": "voipcalling"
+               }
+        },
+        {
+         "appName":"WeChat",
+         "packageName":"com.tencent.mm",
+         "videoBeautyParam":
+            {
+                "isOpen": 0,
+                "fbParam": "0,0,0,0,0,0,0,0,0,0,0"
+            }
+        }
+    ]
+}

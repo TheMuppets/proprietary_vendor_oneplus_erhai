@@ -1,0 +1,23 @@
+
+on late-init
+   trigger early-nvram
+
+on early-nvram
+    wait /dev/block/bootdevice/by-name/nonmodemst1
+    start nvram
+
+service nvram /odm/bin/nvram_server
+    class core
+    ioprio rt 4
+    seclabel u:r:nvram:s0
+
+service nvram_diag /odm/bin/nvram_diag
+    class late_start
+    user system
+    group system vendor_qti_diag
+    seclabel u:r:nvram_diag:s0
+
+service nvram_qmi /odm/bin/nvram_qmi
+    class core
+    ioprio rt 4
+    seclabel u:r:nvram_qmi:s0
