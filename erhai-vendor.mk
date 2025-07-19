@@ -737,6 +737,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/erhai/proprietary/odm/etc/init/init.camera_upate.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.camera_upate.rc \
     vendor/oneplus/erhai/proprietary/odm/etc/init/init.nvram.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.nvram.rc \
     vendor/oneplus/erhai/proprietary/odm/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc \
+    vendor/oneplus/erhai/proprietary/odm/etc/init/vendor.oplus.hardware.pogo_keyboard-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.pogo_keyboard-service.rc \
     vendor/oneplus/erhai/proprietary/odm/etc/mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/mixer_paths.xml \
     vendor/oneplus/erhai/proprietary/odm/etc/oprec_audrec_params/oprec_audrec_config.txt:$(TARGET_COPY_OUT_ODM)/etc/oprec_audrec_params/oprec_audrec_config.txt \
     vendor/oneplus/erhai/proprietary/odm/etc/resourcemanager.xml:$(TARGET_COPY_OUT_ODM)/etc/resourcemanager.xml \
@@ -778,6 +779,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/erhai/proprietary/odm/lib64/camera/libafCustomParam_Cam1.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libafCustomParam_Cam1.bin \
     vendor/oneplus/erhai/proprietary/odm/lib64/camera/libpdCustomParam_Cam0.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libpdCustomParam_Cam0.bin \
     vendor/oneplus/erhai/proprietary/odm/lib64/camera/revision.txt:$(TARGET_COPY_OUT_ODM)/lib64/camera/revision.txt \
+    vendor/oneplus/erhai/proprietary/odm/usr/idc/pogo_touchpad.idc:$(TARGET_COPY_OUT_ODM)/usr/idc/pogo_touchpad.idc \
     vendor/oneplus/erhai/proprietary/vendor/etc/acdbdata/sun_mtp/acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/sun_mtp/acdb_cal.acdb \
     vendor/oneplus/erhai/proprietary/vendor/etc/displayconfig/display_id_4630946983774026899.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946983774026899.xml \
     vendor/oneplus/erhai/proprietary/vendor/etc/init/vendor.qti.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider-service_64.rc \
@@ -1260,6 +1262,7 @@ PRODUCT_PACKAGES += \
     libopluspdparam \
     liboutils \
     libpngwrapper \
+    libpogo_keyboard \
     libsat \
     libsaveshaderbin \
     libsharebuffer \
@@ -1279,6 +1282,7 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.camera_rfi-V1-ndk \
     vendor.oplus.hardware.camera_rfi-V1-service-impl \
     vendor.oplus.hardware.cammidasservice-V1-ndk \
+    vendor.oplus.hardware.pogo_keyboard-V1-ndk_platform \
     vendor.oplus.hardware.sendextcamcmd-V1-service-impl \
     vendor.oplus.hardware.sendextcamcmd-V2-ndk \
     vendor.qti.camera.aon-impl.xml \
@@ -1288,7 +1292,9 @@ PRODUCT_PACKAGES += \
     manifest_oplus_cammidasservice_aidl.xml \
     manifest_oplus_sendextcamcmd.xml \
     vendor.oplus.camera.aon-impl.xml \
+    vendor.oplus.hardware.pogo_keyboard.xml \
     vendor.qti.camera.provider-service_64 \
     vendor.oplus.hardware.cammidasservice-V1-service \
+    vendor.oplus.hardware.pogo_keyboard-service \
     nvram_qmi \
     nvram_server
