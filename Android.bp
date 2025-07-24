@@ -2004,6 +2004,7 @@ cc_prebuilt_library_shared {
                 "libcom.qti.chinodeutils",
                 "libchilog",
                 "libcutils",
+                "libhwconfigurationutil",
                 "liblog",
                 "libc",
                 "libm",

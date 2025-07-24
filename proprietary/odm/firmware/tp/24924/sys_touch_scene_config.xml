@@ -1,5 +1,5 @@
 <filter-conf>
-    <version>2025052210</version>
+    <version>2025060510</version>
     <isOpen>1</isOpen>
     <filter-name>sys_scene_touch_config</filter-name>
 
@@ -61,7 +61,7 @@
 					<!--包名列表中，某个包的默认配置，基于外层的default配置增量修改，如果配置了某个包名的场景，必须配置一个如下对应的默认配置 -->
 				<default>
 					<!-- 优化触控锁点参数 -->
-					<command name="pen_sensitive_level"	value="mod para_effect pen_sensitive_level:4"/>
+					<command name="pen_sensitive_level"	value="mod para_effect pen_sensitive_level:3"/>
 				</default>
 			</packages>
 		</device>
