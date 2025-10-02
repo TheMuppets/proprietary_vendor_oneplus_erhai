@@ -1260,6 +1260,8 @@ PRODUCT_PACKAGES += \
     libocompression \
     liboplusdfx \
     libopluspdparam \
+    liboprec_audrec \
+    liboprec_audrec_wrapper \
     liboutils \
     libpngwrapper \
     libpogo_keyboard \
