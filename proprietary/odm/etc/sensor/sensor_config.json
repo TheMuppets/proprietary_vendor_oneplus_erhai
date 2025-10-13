@@ -48,8 +48,7 @@
                 "support":"true",
                 "module":"stk37600",
                 "stk37600":{
-                    "mode":"factory_cali|is_clock_cali",
-                    "clock": -1,
+                    "mode":"factory_cali",
                     "R_cali":1000,
                     "G_cali":1000,
                     "B_cali":1000,
