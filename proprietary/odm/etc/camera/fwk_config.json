@@ -251,6 +251,10 @@
             "com.meitu.wheecam.main.preview",
             "com.huajiao.camera.sub.Texture"
         ],
+        "parallel_win_activity_transform_list": [
+            "com.alipay.zoloz.toyger.workspace.ToygerActivity: 1",
+            "com.alipay.mobile.scan.as.main.MainCaptureActivity: 4"
+        ],
         "limit_3rd_app_size_byLevel": [
             "autotest.oplus.com.simulatedlivebroadcast.level1",
             "com.fingogroup.fingo.level1",
@@ -746,7 +750,16 @@
             "640x480",
             "266x266",
             "176x144"
-            ]
+            ],
+        "app_disable_fb_activity": [
+            "com.whatsapp.camera.CameraActivity",
+            "com.whatsapp.HomeActivity",
+            "com.whatsapp.qrcode.contactqr.ContactQrActivity",
+            "com.whatsapp.statuscomposer.ConsolidatedStatusComposerActivity",
+            "com.whatsapp.status.composer.ConsolidatedStatusComposerActivity"
+        ],
+        "app_enable_fb_activity": [
+            ""]
     },
     "com.by.butter.camera": {
         "resolutionFilterForNotAddSizeAPI1": [

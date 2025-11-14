@@ -23,5 +23,8 @@ on boot
 
 on property:sys.boot_completed=1
     setprop vendor.oplus.camera.cam0.count 0
+    setprop vendor.oplus.camera.cam1.count 0
+    setprop vendor.oplus.camera.cam2.count 0
     setprop vendor.oplus.camera.cam3.count 0
+    setprop vendor.oplus.camera.cam4.count 0
     setprop vendor.oplus.camera.error.camlist 0

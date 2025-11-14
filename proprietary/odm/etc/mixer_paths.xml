@@ -147,10 +147,10 @@
     <ctl name="ADC2 ChMap" value="ZERO" />
     <ctl name="ADC3 ChMap" value="ZERO" />
     <ctl name="ADC4 ChMap" value="ZERO" />
-    <ctl name="TX0 MODE" value="ADC_NORMAL" />
-    <ctl name="TX1 MODE" value="ADC_NORMAL" />
-    <ctl name="TX2 MODE" value="ADC_NORMAL" />
-    <ctl name="TX3 MODE" value="ADC_NORMAL" />
+    <ctl name="TX0 MODE" value="ADC_INVALID" />
+    <ctl name="TX1 MODE" value="ADC_INVALID" />
+    <ctl name="TX2 MODE" value="ADC_INVALID" />
+    <ctl name="TX3 MODE" value="ADC_INVALID" />
 
     <!-- Volume controls -->
     <ctl name="RX_RX0 Digital Volume" value="84" />

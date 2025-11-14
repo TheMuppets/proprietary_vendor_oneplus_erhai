@@ -3230,6 +3230,8 @@ cc_prebuilt_library_shared {
                 "libhwconfigurationutil",
                 "liboutils",
                 "liboplusdfx",
+                "libcamximageformatutils",
+                "libcamxswispiqmodule",
                 "libchilog",
                 "libchinodeevautils",
                 "libchinodehmeutils",
@@ -3573,6 +3575,7 @@ cc_prebuilt_library_shared {
                 "libchilog",
                 "libcom.qti.chinodeutils",
                 "libSonyIMX471RmscLibrary",
+                "libGCore4Cell_32E2",
                 "libhwconfigurationutil",
                 "liblog",
                 "libc++",
@@ -7573,6 +7576,7 @@ cc_prebuilt_library_shared {
                 "libsnsapi",
                 "vendor.oplus.hardware.camera_rfi-V1-service-impl",
                 "libcam.odnn.interface",
+                "libopluscameraframeboost",
                 "libeva",
                 "libsynx",
                 "libolc_vnd",
@@ -7696,6 +7700,29 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "64",
     relative_install_path: "hw",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libGCore4Cell_32E2",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libGCore4Cell_32E2.so",
+            ],
+            shared_libs: [
+                "libm",
+                "libdl",
+                "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
     prefer: true,
     soc_specific: true,
 }
@@ -7927,6 +7954,8 @@ cc_prebuilt_library_shared {
                 "libutilscallstack",
                 "libsync",
                 "libutils",
+                "libhwconfigurationutil",
+                "libopluscameraframeboost",
                 "libz",
                 "libc",
                 "libm",
@@ -9000,6 +9029,7 @@ cc_prebuilt_library_shared {
                 "libcamxsettingsmanager",
                 "libqti_vndfwk_detect",
                 "libcdsprpc",
+                "libz",
                 "libc",
                 "libm",
                 "libdl",
@@ -9942,6 +9972,64 @@ cc_prebuilt_library_shared {
                 "libcamxsettingsmanager",
                 "libqti_vndfwk_detect",
                 "libcdsprpc",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "liboplus_cfbt",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/liboplus_cfbt.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libutils",
+                "liblog",
+                "libbinder_ndk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libopluscameraframeboost",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libopluscameraframeboost.so",
+            ],
+            shared_libs: [
+                "liboplus_cfbt",
+                "liblog",
+                "libui",
+                "libutils",
+                "libcutils",
+                "libhwconfigurationutil",
+                "libc++",
                 "libc",
                 "libm",
                 "libdl",
@@ -11367,7 +11455,7 @@ cc_prebuilt_library_shared {
                 "vendor.oplus.hardware.camera_rfi-V1-service-impl",
                 "vendor.oplus.hardware.camera.aon-service-impl",
                 "android.frameworks.sensorservice@1.0",
-                "libsensorndkbridge",
+                "libsensorbridge",
                 "libbinder_ndk",
                 "vendor.oplus.hardware.charger-V5-ndk",
                 "liboutils",
@@ -11522,6 +11610,7 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "libAlgoProcess",
                 "libapsjpeg",
+                "libalog",
                 "libc++",
                 "libc",
                 "libm",
@@ -11574,6 +11663,7 @@ cc_prebuilt_library_shared {
                 "libselinux",
                 "libexif-jpeg-aps",
                 "libextendfile",
+                "libalog",
                 "libc++",
                 "libc",
                 "libm",
@@ -12493,6 +12583,55 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libalog",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libalog.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libalogencrypt",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libalogencrypt.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libancbase_rt_fusion",
     owner: "oneplus",
     strip: {
@@ -12508,6 +12647,33 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libdl",
                 "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libapsdngsdk",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libapsdngsdk.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libz",
+                "libapsjpeg",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
             ],
         },
     },
@@ -13204,6 +13370,36 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libdngsdkwrapper",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libdngsdkwrapper.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libutils",
+                "libapsdngsdk",
+                "libAlgoProcess",
+                "libalog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libeffect_custom",
     owner: "oneplus",
     strip: {
@@ -13802,6 +13998,35 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libsensorbridge",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libsensorbridge.so",
+            ],
+            shared_libs: [
+                "libbase",
+                "libbinder_ndk",
+                "libutils",
+                "android.frameworks.sensorservice-V1-ndk",
+                "android.hardware.sensors-V3-ndk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libsharebuffer",
     owner: "oneplus",
     strip: {
@@ -13838,6 +14063,7 @@ cc_prebuilt_library_shared {
                 "proprietary/odm/lib64/libsharebuffer_impl.so",
             ],
             shared_libs: [
+                "libdmabufheap",
                 "libnativewindow",
                 "libui",
                 "libutils",
@@ -14487,6 +14713,7 @@ cc_prebuilt_binary {
                 "libbase",
                 "libhidlbase",
                 "libutils",
+                "libcutils",
                 "liblog",
                 "libhardware",
                 "vendor.oplus.hardware.pogo_keyboard-V1-ndk_platform",
