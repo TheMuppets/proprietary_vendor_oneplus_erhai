@@ -5782,8 +5782,8 @@ cc_prebuilt_library_shared {
                 "libbinder_ndk",
                 "libosensenativeproxy_client",
                 "com.qti.chi.override",
-                "com.qti.feature2.generic",
                 "libchilog",
+                "com.qti.feature2.generic.sm8750",
                 "libhwconfigurationutil",
                 "libextensionlayer",
                 "libz",
@@ -8022,6 +8022,7 @@ cc_prebuilt_library_shared {
                 "libbinder_ndk",
                 "libosensenativeproxy_client",
                 "libhwconfigurationutil",
+                "vendor.oplus.hardware.camera_rfi-V1-service-impl",
                 "libsynx",
                 "libc",
                 "libm",
@@ -11462,13 +11463,14 @@ cc_prebuilt_library_shared {
                 "libocompression",
                 "vendor.oplus.hardware.commondcs-V1-ndk",
                 "libhardware_legacy",
+                "libosensenativeproxy_client",
+                "libcamxcommonutils",
                 "libbinder",
                 "vendor.oplus.hardware.osense.client-V1-ndk",
                 "libosenseaidlhalclient",
                 "libchilog",
                 "libvndksupport",
                 "libhwconfigurationutil",
-                "libcamxcommonutils",
                 "liboplusdfx",
                 "libc++",
                 "libc",
@@ -13274,6 +13276,54 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libcreateFDCLitecachebin",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libcreateFDCLitecachebin.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcreateFDCcachebin",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libcreateFDCcachebin.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libcreatebin",
     owner: "oneplus",
     strip: {
@@ -13983,6 +14033,8 @@ cc_prebuilt_library_shared {
                 "libcreatebinForBaseretouch",
                 "libcreatebin",
                 "libcreatebinForFaceretouch",
+                "libcreateFDCcachebin",
+                "libcreateFDCLitecachebin",
                 "libGLESv3",
                 "libEGL",
                 "libdl",

@@ -1310,6 +1310,8 @@ PRODUCT_PACKAGES += \
     libcam.odnn.interface \
     libcam.oplus.3a.v2 \
     libcam.oplus.3a.v3 \
+    libcreateFDCLitecachebin \
+    libcreateFDCcachebin \
     libcreatebin \
     libcreatebinForBaseretouch \
     libcreatebinForFaceretouch \
