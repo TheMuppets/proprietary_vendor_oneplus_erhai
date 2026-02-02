@@ -390,6 +390,9 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/erhai/proprietary/odm/etc/camera/main_inv_mapxy_33x25.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/main_inv_mapxy_33x25.bin \
     vendor/oneplus/erhai/proprietary/odm/etc/camera/main_mapxy_33x25.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/main_mapxy_33x25.bin \
     vendor/oneplus/erhai/proprietary/odm/etc/camera/media_profiles.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/media_profiles.xml \
+    vendor/oneplus/erhai/proprietary/odm/etc/camera/meishe_lut/800t_blues.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/800t_blues.bin \
+    vendor/oneplus/erhai/proprietary/odm/etc/camera/meishe_lut/800t_hdr.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/800t_hdr.bin \
+    vendor/oneplus/erhai/proprietary/odm/etc/camera/meishe_lut/800t_sdr.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/800t_sdr.bin \
     vendor/oneplus/erhai/proprietary/odm/etc/camera/meishe_lut/ByYo3If:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/ByYo3If \
     vendor/oneplus/erhai/proprietary/odm/etc/camera/meishe_lut/Cold.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/Cold.cube.rgb.bin \
     vendor/oneplus/erhai/proprietary/odm/etc/camera/meishe_lut/DL_A_MoneyBall.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/DL_A_MoneyBall.bin \
@@ -413,11 +416,13 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/erhai/proprietary/odm/etc/camera/meishe_lut/black_gold.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/black_gold.bin \
     vendor/oneplus/erhai/proprietary/odm/etc/camera/meishe_lut/blackandwhite.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/blackandwhite.cube.rgb.bin \
     vendor/oneplus/erhai/proprietary/odm/etc/camera/meishe_lut/bright_coloured.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/bright_coloured.bin \
+    vendor/oneplus/erhai/proprietary/odm/etc/camera/meishe_lut/ceremony.rgba.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/ceremony.rgba.bin \
     vendor/oneplus/erhai/proprietary/odm/etc/camera/meishe_lut/city.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/city.cube.rgb.bin \
     vendor/oneplus/erhai/proprietary/odm/etc/camera/meishe_lut/cola.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/cola.bin \
     vendor/oneplus/erhai/proprietary/odm/etc/camera/meishe_lut/cyberpunk-kitsch-3.1.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/cyberpunk-kitsch-3.1.CUBE.rgb.bin \
     vendor/oneplus/erhai/proprietary/odm/etc/camera/meishe_lut/drjw1994.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/drjw1994.bin \
     vendor/oneplus/erhai/proprietary/odm/etc/camera/meishe_lut/drjw2010.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/drjw2010.bin \
+    vendor/oneplus/erhai/proprietary/odm/etc/camera/meishe_lut/festival.rgba.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/festival.rgba.bin \
     vendor/oneplus/erhai/proprietary/odm/etc/camera/meishe_lut/fuji-cc-high.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/fuji-cc-high.bin \
     vendor/oneplus/erhai/proprietary/odm/etc/camera/meishe_lut/fuji-cc-low.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/fuji-cc-low.bin \
     vendor/oneplus/erhai/proprietary/odm/etc/camera/meishe_lut/fuji-eterna-v2.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/fuji-eterna-v2.cube.rgb.bin \
@@ -469,6 +474,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/erhai/proprietary/odm/etc/camera/meishe_lut/sky-blue.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/sky-blue.cube.rgb.bin \
     vendor/oneplus/erhai/proprietary/odm/etc/camera/meishe_lut/tone-of-light.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/tone-of-light.cube.rgb.bin \
     vendor/oneplus/erhai/proprietary/odm/etc/camera/meishe_lut/tree-green.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/tree-green.cube.rgb.bin \
+    vendor/oneplus/erhai/proprietary/odm/etc/camera/meishe_lut/vibe.rgba.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/vibe.rgba.bin \
     vendor/oneplus/erhai/proprietary/odm/etc/camera/meishe_lut/vivid-cool.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/vivid-cool.cube.rgb.bin \
     vendor/oneplus/erhai/proprietary/odm/etc/camera/meishe_lut/vivid-lut.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/vivid-lut.cube.rgb.bin \
     vendor/oneplus/erhai/proprietary/odm/etc/camera/meishe_lut/vivid-warm.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/vivid-warm.cube.rgb.bin \
@@ -817,6 +823,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/erhai/proprietary/odm/etc/sensor/config/pakala_mtp_freefall.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/pakala_mtp_freefall.json \
     vendor/oneplus/erhai/proprietary/odm/etc/sensor/config/pakala_mtp_motion_recognition.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/pakala_mtp_motion_recognition.json \
     vendor/oneplus/erhai/proprietary/odm/etc/sensor/config/pakala_mtp_mxg4300_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/pakala_mtp_mxg4300_0.json \
+    vendor/oneplus/erhai/proprietary/odm/etc/sensor/config/pakala_mtp_pedometer_minute.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/pakala_mtp_pedometer_minute.json \
     vendor/oneplus/erhai/proprietary/odm/etc/sensor/config/sns_gyro_cal.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/sns_gyro_cal.json \
     vendor/oneplus/erhai/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
     vendor/oneplus/erhai/proprietary/odm/etc/usecaseKvManager.xml:$(TARGET_COPY_OUT_ODM)/etc/usecaseKvManager.xml \
