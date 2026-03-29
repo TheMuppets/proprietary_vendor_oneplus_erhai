@@ -251,10 +251,6 @@
             "com.meitu.wheecam.main.preview",
             "com.huajiao.camera.sub.Texture"
         ],
-        "parallel_win_activity_transform_list": [
-            "com.alipay.zoloz.toyger.workspace.ToygerActivity: 1",
-            "com.alipay.mobile.scan.as.main.MainCaptureActivity: 4"
-        ],
         "limit_3rd_app_size_byLevel": [
             "autotest.oplus.com.simulatedlivebroadcast.level1",
             "com.fingogroup.fingo.level1",
