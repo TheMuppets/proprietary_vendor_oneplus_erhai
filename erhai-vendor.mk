@@ -50,6 +50,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/erhai/proprietary/odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_game_color_enhance_Vivid_100nits_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_game_color_enhance_Vivid_100nits_pGC.txt \
     vendor/oneplus/erhai/proprietary/odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_game_color_enhance_Vivid_2nits_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_game_color_enhance_Vivid_2nits_pGC.txt \
     vendor/oneplus/erhai/proprietary/odm/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_game_color_enhance_Vivid_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/XN242_p_d_dsc_video_mode_panel_game_color_enhance_Vivid_pGC.txt \
+    vendor/oneplus/erhai/proprietary/odm/etc/PanelChaplin/panelchaplin:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/panelchaplin \
     vendor/oneplus/erhai/proprietary/odm/etc/acdbdata/sia/acdb_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/sia/acdb_cal.acdb \
     vendor/oneplus/erhai/proprietary/odm/etc/acdbdata/up_ve_enpuv5_ha.eai:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/up_ve_enpuv5_ha.eai \
     vendor/oneplus/erhai/proprietary/odm/etc/acdbdata/up_ve_enpuv5_hh.eai:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/up_ve_enpuv5_hh.eai \
