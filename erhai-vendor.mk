@@ -838,6 +838,16 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/erhai/proprietary/odm/firmware/tp/24924/FW_NT36536_HUAXING_TEST.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/24924/FW_NT36536_HUAXING_TEST.bin \
     vendor/oneplus/erhai/proprietary/odm/firmware/tp/24924/LIMIT_NT36536_HUAXING.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/24924/LIMIT_NT36536_HUAXING.img \
     vendor/oneplus/erhai/proprietary/odm/firmware/tp/24924/sys_touch_scene_config.xml:$(TARGET_COPY_OUT_ODM)/firmware/tp/24924/sys_touch_scene_config.xml \
+    vendor/oneplus/erhai/proprietary/odm/firmware/uff_face.b00:$(TARGET_COPY_OUT_ODM)/firmware/uff_face.b00 \
+    vendor/oneplus/erhai/proprietary/odm/firmware/uff_face.b01:$(TARGET_COPY_OUT_ODM)/firmware/uff_face.b01 \
+    vendor/oneplus/erhai/proprietary/odm/firmware/uff_face.b02:$(TARGET_COPY_OUT_ODM)/firmware/uff_face.b02 \
+    vendor/oneplus/erhai/proprietary/odm/firmware/uff_face.b03:$(TARGET_COPY_OUT_ODM)/firmware/uff_face.b03 \
+    vendor/oneplus/erhai/proprietary/odm/firmware/uff_face.b04:$(TARGET_COPY_OUT_ODM)/firmware/uff_face.b04 \
+    vendor/oneplus/erhai/proprietary/odm/firmware/uff_face.b05:$(TARGET_COPY_OUT_ODM)/firmware/uff_face.b05 \
+    vendor/oneplus/erhai/proprietary/odm/firmware/uff_face.b06:$(TARGET_COPY_OUT_ODM)/firmware/uff_face.b06 \
+    vendor/oneplus/erhai/proprietary/odm/firmware/uff_face.b07:$(TARGET_COPY_OUT_ODM)/firmware/uff_face.b07 \
+    vendor/oneplus/erhai/proprietary/odm/firmware/uff_face.b08:$(TARGET_COPY_OUT_ODM)/firmware/uff_face.b08 \
+    vendor/oneplus/erhai/proprietary/odm/firmware/uff_face.mdt:$(TARGET_COPY_OUT_ODM)/firmware/uff_face.mdt \
     vendor/oneplus/erhai/proprietary/odm/firmware/wireless_pen/24976/cps8601_firmware.bin:$(TARGET_COPY_OUT_ODM)/firmware/wireless_pen/24976/cps8601_firmware.bin \
     vendor/oneplus/erhai/proprietary/odm/lib64/camera/awb_parameter_default.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/awb_parameter_default.bin \
     vendor/oneplus/erhai/proprietary/odm/lib64/camera/awb_parameter_erhaifront.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/awb_parameter_erhaifront.bin \
@@ -1349,6 +1359,7 @@ PRODUCT_PACKAGES += \
     libsharebuffer_impl \
     libssd_det \
     libstface_fd_api \
+    libstfaceunlockocl_uff \
     libstfd_mobile_api \
     libvega_common \
     libvega_face \
