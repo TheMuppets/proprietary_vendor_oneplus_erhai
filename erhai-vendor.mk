@@ -1396,3 +1396,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     odm_firmware_wireless_pen_24926_cps8601_firmware_bin
+
+PRODUCT_COPY_FILES += \
+    vendor/oneplus/erhai/proprietary/odm/etc/temperature_profile/sys_thermal_control_config.xml:$(TARGET_COPY_OUT_ODM)/etc/temperature_profile/sys_thermal_control_config.xml \
+    vendor/oneplus/erhai/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf
