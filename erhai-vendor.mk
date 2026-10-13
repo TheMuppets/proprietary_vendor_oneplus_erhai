@@ -1294,6 +1294,7 @@ PRODUCT_PACKAGES += \
     libOplusPDCore \
     libOpo_awb \
     libPDParamParser \
+    libPanelChaplin \
     libRedeyeReduce \
     libUpScale \
     libWaterMark \
@@ -1387,6 +1388,7 @@ PRODUCT_PACKAGES += \
     manifest_oplus_sendextcamcmd.xml \
     vendor.oplus.camera.aon-impl.xml \
     vendor.oplus.hardware.pogo_keyboard.xml \
+    vintf_manifext_aidl_panelchaplin.xml \
     vendor.qti.camera.provider-service_64 \
     dvs-aidl-service \
     vendor.oplus.hardware.cammidasservice-V1-service \
