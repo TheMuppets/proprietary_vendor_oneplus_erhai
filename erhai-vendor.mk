@@ -870,6 +870,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/erhai/proprietary/odm/lib64/camera/libpdCustomParam_Cam0.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libpdCustomParam_Cam0.bin \
     vendor/oneplus/erhai/proprietary/odm/lib64/camera/revision.txt:$(TARGET_COPY_OUT_ODM)/lib64/camera/revision.txt \
     vendor/oneplus/erhai/proprietary/odm/usr/idc/pogo_touchpad.idc:$(TARGET_COPY_OUT_ODM)/usr/idc/pogo_touchpad.idc \
+    vendor/oneplus/erhai/proprietary/odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_ODM)/vendor/etc/wifi/WCNSS_qcom_cfg.ini \
     vendor/oneplus/erhai/proprietary/vendor/etc/acdbdata/sun_mtp/acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/sun_mtp/acdb_cal.acdb \
     vendor/oneplus/erhai/proprietary/vendor/etc/displayconfig/display_id_4630946983774026899.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946983774026899.xml \
     vendor/oneplus/erhai/proprietary/vendor/etc/init/vendor.qti.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider-service_64.rc \
